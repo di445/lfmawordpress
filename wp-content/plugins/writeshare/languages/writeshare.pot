@@ -1,0 +1,379 @@
+# Copyright (C) 2016 WriteShare Writing Community Platform
+# This file is distributed under the same license as the WriteShare Writing Community Platform package.
+msgid ""
+msgstr ""
+"Project-Id-Version: WriteShare Writing Community Platform 1.1.7\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/WPWriteShare\n"
+"POT-Creation-Date: 2016-04-03 17:27:38+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2016-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: dashboard.php:40 dashboard.php:41 dashboard.php:60
+msgid "WriteShare"
+msgstr ""
+
+#: dashboard.php:50
+msgid "WriteShare Settings"
+msgstr ""
+
+#: dashboard.php:51
+msgid "Settings"
+msgstr ""
+
+#: dashboard.php:65 settings.php:66
+msgid "Writer Privileges"
+msgstr ""
+
+#: dashboard.php:67
+msgid "User has writer privileges"
+msgstr ""
+
+#: dashboard.php:102
+msgid "WriteShare Administrator Dashboard"
+msgstr ""
+
+#: defaults.php:51
+msgid "Content"
+msgstr ""
+
+#: defaults.php:56
+msgid "Categories"
+msgstr ""
+
+#: defaults.php:58
+msgid "Category"
+msgstr ""
+
+#: defaults.php:63
+msgid "Tags"
+msgstr ""
+
+#: defaults.php:65
+msgid "Tag"
+msgstr ""
+
+#: defaults.php:76
+msgid "Fanfic"
+msgstr ""
+
+#: defaults.php:81 defaults.php:179 defaults.php:285
+msgid "Genres"
+msgstr ""
+
+#: defaults.php:83 defaults.php:181 defaults.php:287
+msgid "Genre"
+msgstr ""
+
+#: defaults.php:88
+msgid "Books"
+msgstr ""
+
+#: defaults.php:90
+msgid "Book"
+msgstr ""
+
+#: defaults.php:95
+msgid "Chapters"
+msgstr ""
+
+#: defaults.php:97
+msgid "Chapter"
+msgstr ""
+
+#: defaults.php:108
+msgid "Essays"
+msgstr ""
+
+#: defaults.php:110
+msgid "Essay"
+msgstr ""
+
+#: defaults.php:116 defaults.php:235 defaults.php:260 defaults.php:331
+msgid "Subjects"
+msgstr ""
+
+#: defaults.php:118 defaults.php:237 defaults.php:262 defaults.php:333
+msgid "Subject"
+msgstr ""
+
+#: defaults.php:123 defaults.php:158 defaults.php:278 defaults.php:310
+msgid "Types"
+msgstr ""
+
+#: defaults.php:125 defaults.php:160 defaults.php:280 defaults.php:312
+msgid "Type"
+msgstr ""
+
+#: defaults.php:136
+msgid "Recipes"
+msgstr ""
+
+#: defaults.php:138
+msgid "Recipe"
+msgstr ""
+
+#: defaults.php:144
+msgid "Meals"
+msgstr ""
+
+#: defaults.php:146
+msgid "Meal"
+msgstr ""
+
+#: defaults.php:151
+msgid "Ingredients"
+msgstr ""
+
+#: defaults.php:153
+msgid "Ingredient"
+msgstr ""
+
+#: defaults.php:171
+msgid "Poems"
+msgstr ""
+
+#: defaults.php:173
+msgid "Poem"
+msgstr ""
+
+#: defaults.php:186 defaults.php:207 defaults.php:292
+msgid "Ratings"
+msgstr ""
+
+#: defaults.php:188 defaults.php:209 defaults.php:294
+msgid "Rating"
+msgstr ""
+
+#: defaults.php:199
+msgid "Dreams"
+msgstr ""
+
+#: defaults.php:201
+msgid "Dream"
+msgstr ""
+
+#: defaults.php:220
+msgid "Magazines"
+msgstr ""
+
+#: defaults.php:222
+msgid "Magazine"
+msgstr ""
+
+#: defaults.php:228 defaults.php:253 defaults.php:324
+msgid "Topics"
+msgstr ""
+
+#: defaults.php:230 defaults.php:255 defaults.php:326
+msgid "Topic"
+msgstr ""
+
+#: defaults.php:248
+msgid "News"
+msgstr ""
+
+#: defaults.php:273
+msgid "Creative Writing"
+msgstr ""
+
+#: defaults.php:305
+msgid "Academic"
+msgstr ""
+
+#: defaults.php:317
+msgid "Disciplines"
+msgstr ""
+
+#: defaults.php:319
+msgid "Discipline"
+msgstr ""
+
+#: routes.php:163 routes.php:166
+msgid "You are not allowed to do this."
+msgstr ""
+
+#: routes.php:169
+msgid "Title cannot be empty"
+msgstr ""
+
+#: routes.php:172
+msgid "Content cannot be empty"
+msgstr ""
+
+#: settings.php:45
+msgid "General Settings"
+msgstr ""
+
+#: settings.php:50
+msgid "Membership"
+msgstr ""
+
+#: settings.php:52
+msgid "Anyone can register"
+msgstr ""
+
+#: settings.php:57
+msgid "Warning"
+msgstr ""
+
+#: settings.php:68
+msgid "New users are authors by default"
+msgstr ""
+
+#: settings.php:73
+msgid "Content Settings"
+msgstr ""
+
+#: settings.php:89
+msgid "Writing Content Type"
+msgstr ""
+
+#: settings.php:98
+msgid "What your users will write on your site."
+msgstr ""
+
+#: settings.php:103
+msgid "Taxonomy Settings"
+msgstr ""
+
+#: settings.php:104
+msgid ""
+"Taxonomies allow you to group content into various categories, genres, tags, "
+"and pretty much any sort of grouping you can imaging."
+msgstr ""
+
+#: settings.php:105
+msgid "Not sure what taxonomies to create? Based on your selection above"
+msgstr ""
+
+#: settings.php:105
+msgid "try these on for size"
+msgstr ""
+
+#: settings.php:111
+msgid "Taxonomies"
+msgstr ""
+
+#: settings.php:119
+msgid "An internal identifier for this taxonomy. Leave blank to auto-generate."
+msgstr ""
+
+#: settings.php:131
+msgid "Access"
+msgstr ""
+
+#: settings.php:132
+msgid "Only admins and editors can add terms to this taxonomy"
+msgstr ""
+
+#: settings.php:135
+msgid "Exclusive"
+msgstr ""
+
+#: settings.php:136
+msgid "Terms in this taxonomy are exclusively owned by an author"
+msgstr ""
+
+#: settings.php:139
+msgid "Serial"
+msgstr ""
+
+#: settings.php:140
+msgid "Content in a term of this taxonomy can be ordered manually"
+msgstr ""
+
+#: settings.php:143
+msgid "Required"
+msgstr ""
+
+#: settings.php:144
+msgid "At least one term is required to be set by the author"
+msgstr ""
+
+#: settings.php:147
+msgid "Limit to"
+msgstr ""
+
+#: settings.php:148
+msgid "term(s) per content (leave blank or 0 for unlimited)"
+msgstr ""
+
+#: settings.php:159
+msgid "Add Taxonomy"
+msgstr ""
+
+#: settings.php:213
+msgid "This content type has no taxonomy templates associated with it."
+msgstr ""
+
+#: settings.php:293
+msgid "WriteShare Plugin Settings"
+msgstr ""
+
+#: templates/filter.php:40
+msgid "Author"
+msgstr ""
+
+#: templates/profile.php:20
+msgid ""
+"You are currently not allowed to publish content. Your request is being "
+"reviewed by our staff."
+msgstr ""
+
+#: templates/write.php:7
+msgid "Start writing..."
+msgstr ""
+
+#: templates/write.php:23
+msgid "Enter title here"
+msgstr ""
+
+#: templates/write.php:54
+msgid ""
+"Format as a numerical version, for example \"1\", \"1.1\", \"1.5.2\", etc."
+msgstr ""
+
+#: templates/write.php:125
+msgid "Publish"
+msgstr ""
+
+#: templates/write.php:126
+msgid "Save as Draft"
+msgstr ""
+
+#: templates.php:67
+msgid "Profile"
+msgstr ""
+
+#: templates.php:91
+msgid "Write"
+msgstr ""
+
+#: templates.php:192
+msgid "No WriteShare templates found for: %s"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "WriteShare Writing Community Platform"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "http://wordpress.org/extend/plugins/writeshare/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Writing Platform for education/LMS, fanfiction, creative writing, and more."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Fandom Entertainment LLC"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://wpwriteshare.com"
+msgstr ""

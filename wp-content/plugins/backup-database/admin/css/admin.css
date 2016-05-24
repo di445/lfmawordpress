@@ -1,0 +1,39 @@
+.dbbutton {
+    margin-bottom: 20px;
+    margin-left: 33%;
+    padding: 12px;
+}
+
+ .dbtable {
+    background: white none repeat scroll 0 0;
+    border: 2px solid;
+}
+
+#content {
+ font-size: 14px;
+    line-height: 2.5;
+    padding: 20px;
+ 
+}
+.left {float:left;width:50%;} 
+.right {float:right;width:50%;} 
+div.ultimate_backup-admin h3 {
+    background: rgba(0, 0, 0, 0) linear-gradient(#2E9AFE,#2E9AFE) repeat scroll 0 0;
+    cursor: pointer;
+    font-size: 13px !important;
+    margin: 0 0 1px !important;
+    padding: 10px 12px !important;
+ color: #fff !important;	
+}
+.ultimate_backup-admin-contain {
+    background: #fff none repeat scroll 0 0;
+}
+div.ultimate_backup-admin table.form-table th {
+    color: #666;
+    font-size: 12px !important;
+    padding-left: 20px !important;
+}
+a.nav-tab-active, .ultimate_backup-admin .nav-tab-wrapper a.nav-tab-active:hover {
+    background: rgb(51, 122, 183) repeat scroll 0 0;
+	 color: #fff !important;	
+}

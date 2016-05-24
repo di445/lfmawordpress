@@ -1,0 +1,25 @@
+.question-fill-in-blank textarea {
+	width: 100%;
+	min-height: 200px;
+}
+
+.question-type-fill_in_blank {
+
+}
+
+.question-type-fill_in_blank input {
+	width: auto;
+}
+
+.question-type-fill_in_blank.checked .check-label {
+	font-style: italic;
+}
+
+.question-type-fill_in_blank.checked .wrong {
+	color: #FF0000;
+	text-decoration: line-through;
+}
+
+.question-type-fill_in_blank.checked .correct {
+	color: #1e73be;
+}
