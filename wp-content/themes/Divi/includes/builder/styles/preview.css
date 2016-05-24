@@ -263,7 +263,7 @@ body.et-pb-preview #main-content .container:before {
 .et_pb_prompt_modal .et_pb_prompt_buttons input.et_pb_prompt_proceed {
 	-webkit-transition: background .5s;
 	transition: background .5s;
-	background-color: #00a0d2;
+	background-color: #008bdb;
 	cursor: pointer;
 	border-radius: 0;
 	-webkit-border-radius: 0;
@@ -439,4 +439,16 @@ body.et-pb-preview #main-content .container:before {
 	100% {
 		opacity: 1;
 	}
+}
+
+/**
+ * Plugins Support
+ */
+
+/* Monarch */
+.et_monarch .et_social_inline,
+.et_monarch .et_social_flyin,
+.et_monarch .et_social_popup,
+.et_monarch .et_social_heading {
+	display: none !important;
 }
