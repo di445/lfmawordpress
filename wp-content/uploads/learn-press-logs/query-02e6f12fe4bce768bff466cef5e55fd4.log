@@ -1,0 +1,191 @@
+-----05-24-2016 @ 15:29:26 ------
+Array
+(
+    [0] => Array
+        (
+            [0] => SELECT wp_posts.ID FROM wp_posts WHERE 1=1 AND wp_posts.post_type = 'post' AND ((wp_posts.post_status = 'publish')) ORDER BY wp_posts.post_date DESC LIMIT 0, 5
+            [1] => 1
+        )
+
+    [1] => Array
+        (
+            [0] => SELECT wp_comments.comment_ID FROM wp_comments JOIN wp_posts ON wp_posts.ID = wp_comments.comment_post_ID WHERE ( comment_approved = '1' ) AND comment_type NOT IN ('review') AND wp_posts.post_status IN ('publish') ORDER BY wp_comments.comment_date_gmt DESC LIMIT 5
+            [1] => 1
+        )
+
+    [2] => Array
+        (
+            [0] => SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (418,352,328,323,318,279,28,15,55,54,5) ORDER BY meta_id ASC
+            [1] => 1
+        )
+
+    [3] => Array
+        (
+            [0] => SELECT wp_posts.* FROM wp_posts WHERE 1=1 AND wp_posts.ID IN (5,15,28,279,54,55,328,318,352,323,418) AND wp_posts.post_type = 'page' AND ((wp_posts.post_status = 'publish')) ORDER BY wp_posts.post_date DESC 
+            [1] => 1
+        )
+
+    [4] => Array
+        (
+            [0] => SELECT wp_posts.* FROM wp_posts WHERE 1=1 AND wp_posts.ID IN (29,30,31,32,329,330,331,332,333,334,335,336,337,338,339,340,341,342,343,344,345,346,347,348,349,350,351,419,420,421,422,423,424,425,426,427,428,429,430,431,432,433,434,435) AND wp_posts.post_type = 'nav_menu_item' AND ((wp_posts.post_status = 'publish')) ORDER BY wp_posts.menu_order ASC 
+            [1] => 1
+        )
+
+    [5] => Array
+        (
+            [0] => SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (331,29,332,30,31,333,334,335,336,337,338,339,340,341,342,343,344,345,346,347,348,349,350,351,431,421,422,423,424,425,426,427,329,330,32,429,419,420,428,432,433,434,435,430) ORDER BY meta_id ASC
+            [1] => 1
+        )
+
+    [6] => Array
+        (
+            [0] => SELECT wp_comments.* FROM wp_comments WHERE comment_ID IN (1)
+            [1] => 1
+        )
+
+    [7] => Array
+        (
+            [0] => SELECT comment_id, meta_key, meta_value FROM wp_commentmeta WHERE comment_id IN (1) ORDER BY meta_id ASC
+            [1] => 1
+        )
+
+    [8] => Array
+        (
+            [0] =>  SELECT comment_approved, COUNT( * ) AS total FROM wp_comments GROUP BY comment_approved 
+            [1] => 1
+        )
+
+    [9] => Array
+        (
+            [0] => SELECT option_value FROM wp_options WHERE option_name = 'et_pb_role_settings' LIMIT 1
+            [1] => 1
+        )
+
+    [10] => Array
+        (
+            [0] => SELECT option_value FROM wp_options WHERE option_name = '_site_transient_timeout_et_update_themes' LIMIT 1
+            [1] => 1
+        )
+
+    [11] => Array
+        (
+            [0] => SELECT term_id, meta_key, meta_value FROM wp_termmeta WHERE term_id IN (1) ORDER BY meta_id ASC
+            [1] => 1
+        )
+
+    [12] => Array
+        (
+            [0] => SELECT YEAR(post_date) AS `year`, MONTH(post_date) AS `month`, count(ID) as posts FROM wp_posts WHERE post_type = 'post' AND post_status = 'publish' GROUP BY YEAR(post_date), MONTH(post_date) ORDER BY post_date DESC 
+            [1] => 1
+        )
+
+    [13] => Array
+        (
+            [0] => SELECT t.*, tt.* FROM wp_terms AS t INNER JOIN wp_term_taxonomy AS tt ON t.term_id = tt.term_id WHERE tt.taxonomy IN ('category') AND tt.count > 0 ORDER BY t.name ASC 
+            [1] => 1
+        )
+
+    [14] => Array
+        (
+            [0] => SELECT tr.object_id FROM wp_term_relationships AS tr INNER JOIN wp_term_taxonomy AS tt ON tr.term_taxonomy_id = tt.term_taxonomy_id WHERE tt.taxonomy IN ('nav_menu') AND tt.term_id IN ('2') ORDER BY tr.object_id ASC
+            [1] => 1
+        )
+
+    [15] => Array
+        (
+            [0] => SELECT t.*, tt.* FROM wp_terms AS t INNER JOIN wp_term_taxonomy AS tt ON t.term_id = tt.term_id WHERE t.term_id = 2
+            [1] => 1
+        )
+
+    [16] => Array
+        (
+            [0] => SELECT option_value FROM wp_options WHERE option_name = '_transient_learn_press_install' LIMIT 1
+            [1] => 1
+        )
+
+    [17] => Array
+        (
+            [0] => SELECT * FROM wp_posts WHERE ID = 473 LIMIT 1
+            [1] => 1
+        )
+
+    [18] => Array
+        (
+            [0] => SELECT option_value FROM wp_options WHERE option_name = '_transient_timeout_learn_press_install' LIMIT 1
+            [1] => 1
+        )
+
+    [19] => Array
+        (
+            [0] => SELECT * FROM wp_posts WHERE ID = 474 LIMIT 1
+            [1] => 1
+        )
+
+    [20] => Array
+        (
+            [0] => SELECT user_id, meta_key, meta_value FROM wp_usermeta WHERE user_id IN (1) ORDER BY umeta_id ASC
+            [1] => 1
+        )
+
+    [21] => Array
+        (
+            [0] => SELECT option_value FROM wp_options WHERE option_name = 'akismet_comment_nonce' LIMIT 1
+            [1] => 1
+        )
+
+    [22] => Array
+        (
+            [0] => SELECT SQL_CALC_FOUND_ROWS wp_posts.ID FROM wp_posts WHERE 1=1 AND wp_posts.post_type = 'post' AND (wp_posts.post_status = 'publish' OR wp_posts.post_status = 'private') ORDER BY wp_posts.post_date DESC LIMIT 0, 10
+            [1] => 1
+        )
+
+    [23] => Array
+        (
+            [0] => SELECT FOUND_ROWS()
+            [1] => 1
+        )
+
+    [24] => Array
+        (
+            [0] => SELECT option_value FROM wp_options WHERE option_name = 'wp_deploy_branches' LIMIT 1
+            [1] => 1
+        )
+
+    [25] => Array
+        (
+            [0] => INSERT INTO `wp_options` (`option_name`, `option_value`, `autoload`) VALUES ('wp_deploy_branches', 'a:0:{}', 'yes') ON DUPLICATE KEY UPDATE `option_name` = VALUES(`option_name`), `option_value` = VALUES(`option_value`), `autoload` = VALUES(`autoload`)
+            [1] => 1
+        )
+
+    [26] => Array
+        (
+            [0] =>  SELECT SQL_CALC_FOUND_ROWS u.*, c.comment_ID as comment_id, cm1.meta_value as title, c.comment_content as content, cm2.meta_value as rate FROM wp_posts p INNER JOIN wp_comments c ON p.ID = c.comment_post_ID INNER JOIN wp_users u ON u.ID = c.user_id INNER JOIN wp_commentmeta cm1 ON cm1.comment_id = c.comment_ID AND cm1.meta_key='_lpr_review_title' INNER JOIN wp_commentmeta cm2 ON cm2.comment_id = c.comment_ID AND cm2.meta_key='_lpr_rating' WHERE p.ID=1 AND c.comment_type='review' ORDER BY c.comment_date DESC LIMIT 0, 5 
+            [1] => 1
+        )
+
+    [27] => Array
+        (
+            [0] => SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (1) ORDER BY meta_id ASC
+            [1] => 1
+        )
+
+    [28] => Array
+        (
+            [0] => SELECT wp_posts.* FROM wp_posts WHERE ID IN (1)
+            [1] => 1
+        )
+
+    [29] => Array
+        (
+            [0] => SELECT t.*, tt.*, tr.object_id FROM wp_terms AS t INNER JOIN wp_term_taxonomy AS tt ON tt.term_id = t.term_id INNER JOIN wp_term_relationships AS tr ON tr.term_taxonomy_id = tt.term_taxonomy_id WHERE tt.taxonomy IN ('category', 'post_tag', 'post_format') AND tr.object_id IN (1) ORDER BY t.name ASC
+            [1] => 1
+        )
+
+    [30] => Array
+        (
+            [0] => SELECT * FROM wp_users WHERE user_login = 'di445'
+            [1] => 1
+        )
+
+)
+
